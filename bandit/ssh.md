@@ -19,6 +19,6 @@ Refer to : 	https://www.redhat.com/en/blog/linux-file-permissions-explained
 
 -p 2220: Specifies the non-standard port used by Bandit (Default SSH is port 22).
 
-    -i: Identity file. Used in levels (like Level 13) to log in using a found private key instead of a password.
+-i: Identity file. Used in levels (like Level 13) to log in using a found private key instead of a password.
 
-    Permissions: SSH requires private keys to be accessible only by the owner. If a key doesn't work, run chmod 600 on it to secure it.
+Permissions: SSH requires private keys to be accessible only by the owner. If a key doesn't work, run chmod 600 on it to secure it.
